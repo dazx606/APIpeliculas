@@ -1,0 +1,31 @@
+
+/*
+        HTTP
+            PETICION -> solicitar/enviar informacion de un recurso 
+                GET -> solicitar/consultar/obtener un recurso 
+                POST-> enviar informacion para crear un recurso 
+                PUT-> enviar informacion para actualizar un recurso 
+                DELATE-> eliminar un recurso
+            RESPUESTA -> contiene la informacion o el estado de la peticion 
+                -> 100 - 199 -> informativos
+                -> 200 - 299 -> informan si se ejecuto correctamente la peticion
+                -> 300 - 399 -> redireccionar peticiones
+                -> 400 - 499 -> errores del cliente (asociados a la programacion)
+                -> 500 - 599 -> errores del servidor 
+            
+            **CABECERAS (HEADERS)
+                -> informacion adicional que describe a la peticion/respuesta
+            
+            **CUERPO (BODY)
+                -> informacion/mensaje que se envia al servidor/cliente
+
+            URL -> uniform resourse location
+                -> HTTP:// protocolo
+                -> localhost -> host/servidor
+                -> 3000 -> puerto
+                -> /XYZ/CGAV -> path resourse
+                -> ?variable=valor&variable=valor -> query string, datos que se envian paraa complementar la peticion 
+
+
+*/
+
